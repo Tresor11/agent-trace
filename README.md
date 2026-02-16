@@ -25,7 +25,7 @@ Send a single message in ChatGPT and AgentTrace reveals the **15+ API calls** ha
    ```
 2. Go to `chrome://extensions/`
 3. Enable **Developer mode** (toggle in top right)
-4. Click **Load unpacked** and select the cloned folder
+4. Click **Load unpacked** and select the cloned folder, you can follow the [instructions here](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked) 
 
 ## How It Works
 
