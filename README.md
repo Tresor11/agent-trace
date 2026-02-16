@@ -1,10 +1,12 @@
 # AgentTrace
 
+> **Work in Progress** — This project is actively being developed. Features are being added incrementally. Contributions and feedback are welcome!
+
 A Chrome extension that intercepts AI API calls, letting you inspect and debug agent conversations in the browser.
 
 ## What It Does
 
-![AgentTrace Screenshot](screenshot.png)
+![AgentTrace Screenshot](files/Screenshot.png)
 
 - Intercepts network requests to ChatGPT (`chatgpt.com`)
 - Displays request method, status code, and URL path
@@ -33,11 +35,15 @@ Send a single message in ChatGPT and AgentTrace reveals the **15+ API calls** ha
 
 ## Roadmap
 
-- [ ] Capture request/response bodies
-- [ ] Visualize agent loops (plan → act → observe)
-- [ ] Support more AI providers (Anthropic, Gemini, etc.)
-- [ ] Modify and replay requests
-- [ ] Export conversation threads for analysis
+### Coming Next
+- [ ] **Request/Response Bodies** — Capture and display the full payload of each API call, not just metadata
+- [ ] **Agent Loop Visualization** — Identify and visualize the plan → act → observe cycle in agent conversations
+
+### Planned
+- [ ] **Multi-Provider Support** — Extend interception to Anthropic (Claude), Gemini, and other AI APIs
+- [ ] **Request Replay** — Modify and resend intercepted requests to test different inputs
+- [ ] **Conversation Export** — Export full conversation threads as JSON for offline analysis
+- [ ] **Filter & Search** — Filter captured requests by type (e.g. hide telemetry, show only AI calls)
 
 ## Contributing
 
