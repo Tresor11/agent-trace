@@ -1,6 +1,6 @@
 # AgentTrace
 
-> **Work in Progress** — This project is actively being developed. Features are being added incrementally. Contributions and feedback are welcome!
+> **⚠️⚠️Work in Progress** — This project is actively being developed. Features are being added incrementally. Contributions and feedback are welcome!
 
 A Chrome extension that intercepts AI API calls, letting you inspect and debug agent conversations in the browser.
 
